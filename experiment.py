@@ -6,6 +6,7 @@ window = turtle.Screen()
 
 # Create a visible turtle object
 my_turtle = turtle.Turtle()
+my_turtle.shapesize(3)
 
 def click_handler(x, y):
   my_turtle.clear()
