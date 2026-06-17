@@ -1,13 +1,13 @@
 # debugging example courtesy of LaunchCode education
 
-launchReady = False;
-fuelLevel = 17000;
+launchReady = False
+fuelLevel = 17000
 
 if fuel_Level >= 20000:
-   print('Fuel level cleared.');
+   print('Fuel level cleared.')
    launchReady = True
 else:
-   print('WARNING: Insufficient fuel!');
+   print('WARNING: Insufficient fuel!')
    launchReady = False
 
 crewStatus = true
