@@ -8,8 +8,14 @@ window = turtle.Screen()
 my_turtle = turtle.Turtle()
 
 def click_handler(x, y):
+  my_turtle.clear()
+  my_turtle.speed(0)
+  # fastest speed
+
+  my_turtle.pendown()
   my_turtle.forward(100)
   my_turtle.forward(-100)
+  my_turtle.penup()
 
 my_turtle.onclick(click_handler)
 
